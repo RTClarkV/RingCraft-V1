@@ -260,6 +260,8 @@ public class Ring extends BukkitRunnable implements Listener {
             setOwner(e.getPlayer().getName());
         }
     }
+
+
     @EventHandler
     public void onSwitchItem(PlayerItemHeldEvent e){
         if(!e.getPlayer().getName().equals(getOwnerName()))return;
