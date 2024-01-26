@@ -1,0 +1,8 @@
+name: RingCraft_By_CoreStone
+version: '${project.version}'
+main: core.pluginchaos.ringcraft_by_corestone.RingCraft_By_CoreStone
+api-version: 1.19
+commands:
+  RingCraftCore:
+    description: ring craft stuff
+    usage: /<
